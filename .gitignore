@@ -3,4 +3,4 @@ venv/
 
 **/checkpoints/*
 **/tmp_trainer/*
-src/aml_wa24/models/*/
+src/aml/models/*/

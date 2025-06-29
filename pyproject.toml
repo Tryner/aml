@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aml"
+version = "0.0.1"
+dependencies = [
+  "ipywidgets",
+  "ipykernel",
+  "pandas",
+  "polars",
+  "sentence-transformers",
+]
+authors = [
+  {name="Tryner"},
+]
+description = ""
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]

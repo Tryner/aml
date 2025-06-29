@@ -1,0 +1,6 @@
+venv/
+*.egg-info
+
+**/checkpoints/*
+**/tmp_trainer/*
+src/aml_wa24/models/*/

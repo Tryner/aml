@@ -37,6 +37,7 @@ Installation überprüfen
 ### uv installieren
 - Windows Powershell öffnen
 - `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"` ausführen
+    - (siehe https://docs.astral.sh/uv/getting-started/installation/#standalone-installer)
 
 ### Python Umgebung einrichten
 Terminal öffnen (siehe oben)

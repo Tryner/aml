@@ -8,19 +8,19 @@ Falls noch nicht vorhanden
 - von https://git-scm.com/downloads herunterladen
 - installieren, die Standardeinstellungen sollten OK sein
 
-## IDE installieren
+### IDE installieren
 Wir empfehlen VS Code
 - auf https://code.visualstudio.com/download herunterladen
 - installieren, die Standardeinstellungen sollten OK sein
 
-## Dieses Projekt clonen
+### Dieses Projekt clonen
 - VS Code öffnen
 - "Clone Git Repository..." auswählen
 - als Url "https://github.com/Tryner/aml.git" angeben und clonen
 - Ordner auswählen in den das Repo geclont werden soll
 - Projekt öffnen und den Autoren vertrauen
 
-## Python installieren
+### Python installieren
 Falls noch nicht vorhanden
 - auf https://www.python.org/downloads/ herunterladen
 - beide Haken setzten und installieren
@@ -34,22 +34,23 @@ Installation überprüfen
 - Falls das Kommando nicht erkannt wird neustarten und erneut "python --version" versuchen
     - Wurden wiklich beide Haken bei der Installation gesetzt?
 
-## uv installieren
+### uv installieren
 - Windows Powershell öffnen
 - `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"` ausführen
 
-## Python Umgebung einrichten
+### Python Umgebung einrichten
 Terminal öffnen (siehe oben)
 - Terminal sollte im Ordner "aml" geöffnet sein
 - venv erstellen `uv venv --python 3.13`
 - venv aktivieren `.venv\Scripts\activate`
     - Links vor "C:" sollte jetzt "aml" stehen
 - Abhängigkeiten instllieren `uv pip sync requirements.txt`
+    - Dies kann etwas dauern
 - Projekt installieren `uv pip install -e . --no-deps`
 
-## Vorbereitungsnotebook ausführen
+### Vorbereitungsnotebook ausführen
 "vorbereitung.ipynb" ausführen
-- "Run all" auswählen
+- "Run All" auswählen
 - Kernel auswählen
     - "Python Environments..." -> "aml [...]"
 
@@ -57,4 +58,6 @@ Terminal öffnen (siehe oben)
 > Microsoft Visual C++ Redistributable is not installed, this may lead to the DLL load failure.
 > It can be downloaded at https://aka.ms/vs/16/release/vc_redist.x64.exe
 
-- Die betreffende .exe nachinstallieren, restart kernel und wieder run all.
+- Die betreffende .exe nachinstallieren, Restart (Kernel) und wieder Run All.
+- Die Ausführung kann etwas dauern
+- Wenn "Success!" ausgegeben wird ist alles gut gelaufen.

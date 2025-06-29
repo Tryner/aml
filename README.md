@@ -15,4 +15,5 @@ Vorbereitung.ipynb ausführen
 Hierbei kann es zu einer Fehlermeldung und folgendem Hinweis kommen:
 > Microsoft Visual C++ Redistributable is not installed, this may lead to the DLL load failure.
 > It can be downloaded at https://aka.ms/vs/16/release/vc_redist.x64.exe
+
 Die betreffende .exe nachinstallieren, restart kernel und wieder run all.

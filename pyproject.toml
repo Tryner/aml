@@ -6,11 +6,16 @@ build-backend = "setuptools.build_meta"
 name = "aml"
 version = "0.0.1"
 dependencies = [
+  "beautifulsoup4",
+  "fastapi",
   "ipywidgets",
   "ipykernel",
+  "uvicorn",
   "pandas",
   "polars",
   "sentence-transformers",
+  "setfit",
+  "datasets<4.0.0",
 ]
 authors = [
   {name="Tryner"},

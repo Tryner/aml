@@ -1,6 +1,9 @@
 # Anleitung Installation
 Hinweis: Kommandos am besten kopieren und nicht abtippen.
 
+Es werden mindestens 10 GB freier Speicher benötigt.
+Eine schnelle & stablie Internetverbindung sind empfehlenswert.
+
 ## Windows
 
 ### Git installieren

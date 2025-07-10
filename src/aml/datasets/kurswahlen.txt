@@ -1,0 +1,2 @@
+Ein CSV mit der Anzahl der Erst, Zweit und Drittwahlen je Kurs wird auf Nachfrage zur Verfügung gestellt.
+Ihr könnt das CSV einfach mit Polars einlesen

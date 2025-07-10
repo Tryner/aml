@@ -1,0 +1,17 @@
+Es gibt einen Haufen Podcasts. 
+Podcasts bieten üblicherweise einen maschienenlesbaren RSS-Feed an.
+Extrahiert relevante Informationen zu den Podcasts wie Titel oder Beschreibung.
+Die Audiodatein können ignoriert werden, diese auszuwerten ist etwas kopliziert.
+
+Eure Aufgabe ist es ein Script zu schreiben, dass sich die Daten zu einem oder einer Liste von Podcasts holt.
+Http calls könnt ihr mit "requests" machen, xml könnt ihr mit Beautifulsoup parsen.
+Am Ende sollen die Daten alle in einem Polars Dataframe landen.
+
+Liste von Podcasts:
+Science vs
+Opinion Science
+You are not so smart
+Choiceologoy
+Hidden Brain
+Worklife with Adam Grant
+Economics of everyday things

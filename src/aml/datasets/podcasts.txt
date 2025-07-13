@@ -4,7 +4,8 @@ Extrahiert relevante Informationen zu den Podcasts wie Titel oder Beschreibung.
 Die Audiodatein können ignoriert werden, diese auszuwerten ist etwas kopliziert.
 
 Eure Aufgabe ist es ein Script zu schreiben, dass sich die Daten zu einem oder einer Liste von Podcasts holt.
-Http calls könnt ihr mit "requests" machen, xml könnt ihr mit Beautifulsoup parsen.
+Http calls könnt ihr mit "requests" machen (Für mache Podcasts müsst ihr einen user-agent angeben, falls ein 403er kommt)
+xml könnt ihr mit Beautifulsoup parsen: "BeautifulSoup(xml, features="xml")".
 Am Ende sollen die Daten alle in einem Polars Dataframe landen.
 
 Liste von Podcasts:

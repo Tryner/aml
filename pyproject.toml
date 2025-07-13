@@ -7,15 +7,16 @@ name = "aml"
 version = "0.0.1"
 dependencies = [
   "beautifulsoup4",
+  "datasets<4.0.0",
   "fastapi",
   "ipywidgets",
   "ipykernel",
-  "uvicorn",
+  "lxml",
   "pandas",
   "polars",
   "sentence-transformers",
   "setfit",
-  "datasets<4.0.0",
+  "uvicorn",
 ]
 authors = [
   {name="Tryner"},

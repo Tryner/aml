@@ -7,6 +7,7 @@ name = "aml"
 version = "0.0.1"
 dependencies = [
   "beautifulsoup4",
+  "bertopic",
   "datasets<4.0.0",
   "fastapi",
   "gradio",

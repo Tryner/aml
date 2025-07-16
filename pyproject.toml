@@ -9,6 +9,7 @@ dependencies = [
   "beautifulsoup4",
   "datasets<4.0.0",
   "fastapi",
+  "gradio",
   "ipywidgets",
   "ipykernel",
   "lxml",

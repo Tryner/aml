@@ -17,6 +17,7 @@ dependencies = [
   "polars",
   "sentence-transformers",
   "setfit",
+  "torcheval",
   "uvicorn",
 ]
 authors = [

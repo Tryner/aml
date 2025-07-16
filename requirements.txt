@@ -377,6 +377,8 @@ torch==2.7.1
     # via
     #   accelerate
     #   sentence-transformers
+torcheval==0.0.7
+    # via aml (pyproject.toml)
 tornado==6.5.1
     # via
     #   ipykernel
@@ -416,6 +418,7 @@ typing-extensions==4.14.1
     #   pydantic-core
     #   sentence-transformers
     #   torch
+    #   torcheval
     #   typer
     #   typing-inspection
 typing-inspection==0.4.1

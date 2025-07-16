@@ -64,4 +64,35 @@ Terminal öffnen (siehe oben)
 
 - Die betreffende .exe nachinstallieren, Restart (Kernel) und wieder Run All.
 - Die Ausführung kann etwas dauern
+- Wenn ihr eine Nvidia-GPU habt, sollte diese in der Zweiten Zelle erkannt werden
 - Wenn "Success!" ausgegeben wird ist alles gut gelaufen.
+- Fertig
+
+## Andere Betriebssysteme
+Ist für Windows getestet, funktioniert auf anderen Betriebssystem ehr einfacher.
+
+### Dinge installieren
+Genau so wie für Windows müsst ihr ein paar Dinge installieren (falls noch nicht vorhanden)
+- Git (https://git-scm.com/downloads)
+- Python (https://www.python.org/downloads/)
+- uv (https://docs.astral.sh/uv/getting-started/installation/)
+- VS Code (https://code.visualstudio.com/download)
+
+### Projekt clonen
+Genau wie bei Windows
+
+### Python Umgebung einrichten
+Ähnlich wie bei Windows
+
+Terminal in VS Code öffnen
+- Terminal sollte im Ordner "aml" geöffnet sein
+- venv erstellen `uv venv --python 3.13`
+- venv aktivieren `source .venv\bin\activate`
+    - Die venv "aml" sollte in der Kommandozeile auftauchen
+- Abhängigkeiten instllieren `uv pip sync requirements.txt`
+    - Dies kann etwas dauern
+- Projekt installieren `uv pip install -e . --no-deps`
+
+### Vorbereitungsnotebook ausführen
+Wie bei Windows
+- Bei Macbooks sollte "Apple NPU available: True" bei der zweiten Zelle ausgegeben werden.

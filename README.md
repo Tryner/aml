@@ -4,6 +4,8 @@ Hinweis: Kommandos am besten kopieren und nicht abtippen.
 Es werden mindestens 10 GB freier Speicher benötigt.
 Eine schnelle & stablie Internetverbindung sind empfehlenswert.
 
+Optional: Ollama installieren (https://ollama.com/) und Modell herunterladen (`ollama run gemma3` oder anderes Modell, s. https://github.com/ollama/ollama?tab=readme-ov-file#model-library)
+
 ## Windows
 
 ### Git installieren
@@ -33,7 +35,7 @@ Installation überprüfen
 - Terminal -> New Terminal
     - Terminal findet ihr ganz oben, irgendwo auf der linken Seite, zwischen "Run" und "Help". Ggf. ist "Terminal" hinter drei Punkten oder horizontalen Strichen versteckt.
     - Es sollte sich unten ein Terminal öffnen.
-- `python --version"` ausführen
+- `python --version` ausführen
 - Falls das Kommando nicht erkannt wird neustarten und erneut "python --version" versuchen
     - Wurden wiklich beide Haken bei der Installation gesetzt?
 

@@ -89,7 +89,7 @@ Genau wie bei Windows
 Terminal in VS Code öffnen
 - Terminal sollte im Ordner "aml" geöffnet sein
 - venv erstellen `uv venv --python 3.13`
-- venv aktivieren `source .venv\bin\activate`
+- venv aktivieren `source .venv/bin/activate`
     - Die venv "aml" sollte in der Kommandozeile auftauchen
 - Abhängigkeiten instllieren `uv pip sync requirements.txt`
     - Dies kann etwas dauern

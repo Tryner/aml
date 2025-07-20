@@ -2,6 +2,9 @@
 *__pycache__
 *.parquet
 
+notebooks/.ipynb_checkpoints/
+notebooks/.virtual_documents/
+
 **/checkpoints/*
 **/tmp_trainer/*
 src/aml/models/*/

@@ -95,9 +95,9 @@ fsspec==2025.3.0
     #   gradio-client
     #   huggingface-hub
     #   torch
-gradio==5.37.0
+gradio==5.38.0
     # via aml (pyproject.toml)
-gradio-client==1.10.4
+gradio-client==1.11.0
     # via gradio
 groovy==0.1.2
     # via gradio
@@ -105,7 +105,7 @@ h11==0.16.0
     # via
     #   httpcore
     #   uvicorn
-#hdbscan==0.8.40 # causes problems
+hdbscan==0.8.40
     # via bertopic
 hf-xet==1.1.5 ; platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'arm64' or platform_machine == 'x86_64'
     # via huggingface-hub
@@ -191,7 +191,7 @@ multiprocess==0.70.16
     # via
     #   datasets
     #   evaluate
-narwhals==1.47.0
+narwhals==1.47.1
     # via plotly
 nest-asyncio==1.6.0
     # via ipykernel
@@ -301,7 +301,7 @@ ptyprocess==0.7.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
     # via pexpect
 pure-eval==0.2.3
     # via stack-data
-pyarrow==20.0.0
+pyarrow==21.0.0
     # via datasets
 pycparser==2.22 ; implementation_name == 'pypy'
     # via cffi
@@ -351,7 +351,7 @@ requests==2.32.4
     #   transformers
 rich==14.0.0 ; sys_platform != 'emscripten'
     # via typer
-ruff==0.12.3 ; sys_platform != 'emscripten'
+ruff==0.12.4 ; sys_platform != 'emscripten'
     # via gradio
 safehttpx==0.1.6
     # via gradio
@@ -359,7 +359,7 @@ safetensors==0.5.3
     # via
     #   accelerate
     #   transformers
-scikit-learn==1.7.0
+scikit-learn==1.7.1
     # via
     #   bertopic
     #   hdbscan

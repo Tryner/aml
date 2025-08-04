@@ -51,7 +51,6 @@ loss_function = nn.CrossEntropyLoss(torch.Tensor([0.66, 0.33]))
 optimizer = torch.optim.SGD(params=model.parameters(), lr=0.001)
 
 # %%
-
 for epoch in range(30):
     total_loss = 0
     for batch in train_dataloader:
@@ -101,10 +100,16 @@ accuracy
 true_positive = (y_pred_eval.argmax(dim=1) == labels_eval.squeeze()) & (labels_eval.squeeze() == 1)
 true_positive.sum().item() / (labels_eval == 1).sum().item() * 100
 
-# %% # False positive rate
+# %% # False negative rate
 # How often do we predict a positive label when it is actually negative?
-false_positive = (y_pred_eval.argmax(dim=1) != labels_eval.squeeze()) & (labels_eval.squeeze() == 1)
-false_positive.sum().item() / (labels_eval == 1).sum().item() * 100 
+false_negative = (y_pred_eval.argmax(dim=1) != labels_eval.squeeze()) & (labels_eval.squeeze() == 1)
+false_negative.sum().item() / (labels_eval == 1).sum().item() * 100 
+
+
+# %%
+false_positive = (y_pred_eval.argmax(dim=1) != labels_eval.squeeze()) & (labels_eval.squeeze() == 0)
+false_positive.sum().item() / (labels_eval == 0).sum().item() * 100 
+
 
 # %%
 # We can also use the predictions to calculate the confusion matrix
